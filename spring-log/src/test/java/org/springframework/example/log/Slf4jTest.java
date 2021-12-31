@@ -1,5 +1,4 @@
 package org.springframework.example.log;
-
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -109,11 +108,11 @@ public class Slf4jTest {
         printLog(LoggerFactory.getLogger(this.getClass()));
         /*
         logger.getClass() = class org.slf4j.impl.JDK14LoggerAdapter
-        十二月 31, 2021 5:15:00 下午 org.springframework.example.log.Slf4jTest printLog
+        十二月 31, 2021 5:15:00 下午 log.Slf4jTest printLog
         信息: info JDK14LoggerAdapter
-        十二月 31, 2021 5:15:00 下午 org.springframework.example.log.Slf4jTest printLog
+        十二月 31, 2021 5:15:00 下午 log.Slf4jTest printLog
         警告: warn JDK14LoggerAdapter
-        十二月 31, 2021 5:15:00 下午 org.springframework.example.log.Slf4jTest printLog
+        十二月 31, 2021 5:15:00 下午 log.Slf4jTest printLog
         严重: error JDK14LoggerAdapter
          */
     }
